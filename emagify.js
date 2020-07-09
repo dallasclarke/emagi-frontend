@@ -17,17 +17,17 @@ const emagify = function(userWords) {
 }
 
 // uses includes and no intermediate variables
-const emagifyAlt = function(userWords) {
-  const results = [];
-  for (const word of userWords) {
-    if (words.includes(word)) {
-      results.push(symbols[words.indexOf(word)]);
-    } else {
-      results.push(word)
-    }
-  }
+// const emagifyAlt = function(userWords) {
+//   const results = [];
+//   for (const word of userWords) {
+//     if (words.includes(word)) {
+//       results.push(symbols[words.indexOf(word)]);
+//     } else {
+//       results.push(word)
+//     }
+//   }
 
-  return results;
-}
+//   return results;
+// }
 
 module.exports = emagify;
